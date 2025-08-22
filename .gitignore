@@ -1,5 +1,8 @@
 # Local .terraform directories
 .terraform/
+**/.terraform/*
+**/.terraform.d/*
+.terraform.lock.hcl
 
 # .tfstate files
 *.tfstate
@@ -15,6 +18,7 @@ crash.*.log
 # to change depending on the environment.
 *.tfvars
 *.tfvars.json
+terraform.tfvars
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
@@ -35,3 +39,11 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Editor & OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.lock
