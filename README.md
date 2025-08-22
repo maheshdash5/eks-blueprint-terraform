@@ -70,3 +70,9 @@ choco install kubernetes-cli
 
 # Verify
 kubectl version --client
+
+📚 References
+
+Terraform Documentation: https://developer.hashicorp.com/terraform/docs
+Amazon EKS Documentation: https://docs.aws.amazon.com/eks/index.html
+kubectl Cheat Sheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
