@@ -2,9 +2,10 @@
 Terraform configuration for provisioning and managing Amazon EKS clusters on AWS, following infrastructure-as-code best practices to ensure scalability, security, and consistency across environments.
 
 # 📋 Prerequisites
-# 1.Terraform >= 1.3.0
-# 2.AWS CLI v2
-# 3.An AWS account with credentials configured: aws configure / aws configure sso
+ 1.Terraform >= 1.3.0
+ 2.AWS CLI v2
+ 3.An AWS account with credentials configured: aws configure / aws configure sso
+ 
 # aws sso login : 
 aws sso login --profile dev-sso
 aws sso login --profile stage-sso
